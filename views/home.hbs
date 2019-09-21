@@ -1,0 +1,11 @@
+<header>
+    <ul class="menu">
+        <li class="menu-item"><a href="/">Home</a></li>
+        {{#if isLogged}}
+            <li class="menu-item__logout"><a href="/logout">Logout</a></li>
+        {{else}}
+            <li class="menu-item__login"><a href="/auth/google">Google Login</a></li>
+        {{/if}}
+    </ul>
+</header>
+<h1>Home Page</h1>

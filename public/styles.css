@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+ul.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li {
+    margin: 1em;
+}
+li:last-child {
+    margin-right: 1.5em;
+}
+li.menu-item__login a {
+    color: rgb(255, 108, 55);
+    font-weight: bold;
+}
+li.menu-item__logout a {
+    color: rgb(0, 90, 35);
+    font-weight: bold;
+}
+li a {
+    color: black;
+}
+h1 {
+    text-align: center;
+}
